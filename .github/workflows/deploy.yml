@@ -11,6 +11,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Set Timestamp Variable
+        id: timestamp
+        run: echo "TIMESTAMP=$(date +'%Y-%m-%d_%H-%M-%S')" >> $GITHUB_ENV
+
       - name: Checkout Code
         uses: actions/checkout@v3
 
@@ -30,6 +34,16 @@ jobs:
       - name: Build Project
         run: npm run build
 
+      - name: Publish
+        uses: nogsantos/scp-deploy@master
+        with:
+          src: ./dist/*
+          host: ${{ secrets.SERVER_HOST }}
+          user: ${{ secrets.SERVER_USER }}
+          port: 22  # Passe den Port an, falls er nicht 22 ist
+          remote: ~/www.deter-consulting.de/${{ env.TIMESTAMP }}
+          key: ${{secrets.SERVER_SSH_KEY}}
+
       - name: Remove old via SSH
         uses: appleboy/ssh-action@v0.1.7
         with:
@@ -40,14 +54,4 @@ jobs:
           script: |
             # Navigiere zu deinem Zielordner und entferne alte Dateien
             cd ~/www.deter-consulting.de/
-            rm -rf *
-
-      - name: Publish
-        uses: nogsantos/scp-deploy@master
-        with:
-          src: ./dist/*
-          host: ${{ secrets.SERVER_HOST }}
-          user: ${{ secrets.SERVER_USER }}
-          port: 22  # Passe den Port an, falls er nicht 22 ist
-          remote: ~/www.deter-consulting.de/
-          key: ${{secrets.SERVER_SSH_KEY}}
+            rm current && ln -s ${{ env.TIMESTAMP }} current
