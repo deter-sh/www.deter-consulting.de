@@ -18,6 +18,11 @@ jobs:
         with:
           node-version: 18  # Passe die Node.js-Version an dein Projekt an
 
+      - name: Inject Environment Variables
+        run: |
+          echo "CONTENTFUL_SPACE_ID=${{ secrets.CONTENTFUL_SPACE_ID }}" >> .env
+          echo "CONTENTFUL_DELIVERY_TOKEN=${{ secrets.CONTENTFUL_DELIVERY_TOKEN }}" >> .env
+
       - name: Install Dependencies
         run: npm install
 
