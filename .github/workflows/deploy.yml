@@ -4,7 +4,8 @@ on:
   push:
     branches:
       - main  # Passe den Branch an, den du verwenden möchtest
-  workflow_dispatch:
+  repository_dispatch:
+    types: [ publish-event ]
 
 jobs:
   deploy:
