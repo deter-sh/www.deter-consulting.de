@@ -44,7 +44,7 @@ jobs:
           script: |
             # Navigiere zu deinem Zielordner und entferne alte Dateien
             cd ~/www.deter-consulting.de/
-           mkdir ${{ env.TIMESTAMP }}
+            mkdir ${{ env.TIMESTAMP }}
 
       - name: Publish
         uses: nogsantos/scp-deploy@master
