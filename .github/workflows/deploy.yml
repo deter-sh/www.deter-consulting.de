@@ -1,0 +1,39 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - main  # Passe den Branch an, den du verwenden möchtest
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18  # Passe die Node.js-Version an dein Projekt an
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build Project
+        run: npm run build
+
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v0.1.7
+        with:
+          host: ${{ secrets.SERVER_HOST }}
+          username: ${{ secrets.SERVER_USER }}
+          password: ${{ secrets.SERVER_SSH_PASSWORD }}
+          port: 22  # Passe den Port an, falls er nicht 22 ist
+          script: |
+            # Navigiere zu deinem Zielordner und entferne alte Dateien
+            cd ~/www.deter-consulting.de/
+            rm -rf *
+            # Kopiere neue Dateien
+            scp -r dist/* ~/www.deter-consulting.de/
