@@ -1,0 +1,50 @@
+{
+  "site": {
+    "title": "Deter Consulting",
+    "base_url": "https://www.deter-consulting.de",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.png",
+    "logo_width": "190",
+    "logo_height": "94",
+    "logo_text": "Deter"
+  },
+
+  "settings": {
+    "pagination": 12,
+    "summary_length": 120,
+    "blog_folder": "blog"
+  },
+
+  "params": {
+    "contact_form_action": "https://api.web3forms.com/submit",
+    "footer_description": " Ob im Management, Projektmanagement oder in der Softwareentwicklung – gemeinsam entwickeln wir Strategien, die wirklich wirken.",
+    "copyright": "Copyright © {year} Deter Consulting"
+  },
+
+  "subscription": {
+    "enable": false,
+    "action": "#",
+    "title": "Subscribe to Our Newsletter!",
+    "description": "Stay Informed with Our Latest Security Insights - Subscribe to Our Newsletter!"
+  },
+
+  "navigation_button": {
+    "enable": true,
+    "label": "Termin buchen",
+    "link": "/termin"
+  },
+
+  "disqus": {
+    "enable": true,
+    "shortname": "themefisher-template",
+    "settings": {}
+  },
+
+  "metadata": {
+    "meta_author": "Deter Consulting",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "Dein führender Partner "
+  }
+}

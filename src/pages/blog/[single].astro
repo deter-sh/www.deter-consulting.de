@@ -1,0 +1,33 @@
+---
+import Base from "@/layouts/Base.astro";
+import BlogSingle from "@/layouts/BlogSingle.astro";
+import { contentfulClient } from "@/lib/contentful/contentful";
+import { BlogEntry } from "@/lib/contentful/interfaces/BlogEntry";
+
+export async function getStaticPaths() {
+
+  const entries = await contentfulClient.getEntries<BlogEntry>({
+    content_type: "blogEntry",
+    order: "-fields.date"
+  });
+
+  const paths = entries.items.map((entry) => ({
+    params: {
+      single: entry.fields.slug,
+    },
+    props: { entry },
+  }));
+
+  return paths;
+}
+
+const { title, metaDescription} = Astro.props.entry.fields;
+---
+
+<Base
+  title={title}
+  meta_title={title}
+  description={metaDescription}
+  image={Astro.props.entry.fields.image.fields.file.url}>
+  <BlogSingle post={Astro.props} />
+</Base>

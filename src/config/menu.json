@@ -1,0 +1,67 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Leistungen",
+      "url": "/leistungen",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Management",
+          "url": "/leistungen/management"
+        },
+        {
+          "name": "Projekt-Management",
+          "url": "/leistungen/projektmanagement"
+        },
+        {
+          "name": "Software-Entwicklung",
+          "url": "/leistungen/development"
+        }
+      ]
+    },
+    {
+      "name": "Über",
+      "url": "/ueber"
+    },
+    {
+      "name": "Blog",
+      "url": "/blog"
+    },
+    {
+      "name": "Kontakt",
+      "url": "/kontakt"
+    }
+  ],
+  "footer_menu": [
+    {
+      "name": "Leistungen",
+      "url": "/leistungen"
+    },
+    {
+      "name": "Über uns",
+      "url": "/ueber"
+    },
+    {
+      "name": "Blog",
+      "url": "/blog"
+    }
+  ],
+  "footer_quick_links": [
+    {
+      "name": "AGB",
+      "url": "/agb"
+    },
+    {
+      "name": "Datenschutz",
+      "url": "/datenschutz"
+    },
+    {
+      "name": "Impressum",
+      "url": "/impressum"
+    }
+  ]
+}

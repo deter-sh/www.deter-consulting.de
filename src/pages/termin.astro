@@ -1,0 +1,35 @@
+---
+import Base from "@/layouts/Base.astro";
+
+---
+
+<Base
+  title="Termin"
+  meta_title="Termin buchen bei Deter Consulting"
+  description="Buche jetzt einen Termin bei uns">
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="mx-auto text-center lg:col-10" data-aos="fade-left-sm">
+          <h2 class="mb-3">Termin vereinbaren</h2>
+          <p class="mb-3">Vereinbare jetzt kostenlos einen Termin mit uns um über dein Projekt zu sprechen.</p>
+          <!-- Cal inline embed code begins -->
+          <div style="width:100%;height:100%;overflow:scroll" id="my-cal-inline" class="mt-3"></div>
+          <script type="text/javascript">
+            (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+            Cal("init", "erstgespraech", {origin:"https://cal.com"});
+
+            Cal.ns.erstgespraech("inline", {
+              elementOrSelector:"#my-cal-inline",
+              config: {"layout":"month_view"},
+              calLink: "deter-consulting/erstgespraech",
+            });
+
+            Cal.ns.erstgespraech("ui", {"hideEventTypeDetails":true,"layout":"month_view"});
+          </script>
+          <!-- Cal inline embed code ends -->
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,19 @@
+{
+  "main": [
+    {
+      "name": "facebook",
+      "icon": "FaFacebook",
+      "link": "https://www.facebook.com/deterconsulting.de"
+    },
+    {
+      "name": "linkedin",
+      "icon": "FaLinkedin",
+      "link": "https://linkedin.com/company/deter-consulting"
+    },
+    {
+      "name": "email",
+      "icon": "FaEnvelope",
+      "link": "mailto:info@deter-consulting.de"
+    }
+  ]
+}
