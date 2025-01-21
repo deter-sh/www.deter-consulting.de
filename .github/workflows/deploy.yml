@@ -34,7 +34,7 @@ jobs:
         with:
           host: ${{ secrets.SERVER_HOST }}
           username: ${{ secrets.SERVER_USER }}
-          password: ${{ secrets.SERVER_SSH_PASSWORD }}
+          password: ${{ secrets.SERVER_PASSWORD }}
           port: 22  # Passe den Port an, falls er nicht 22 ist
           script: |
             # Navigiere zu deinem Zielordner und entferne alte Dateien
