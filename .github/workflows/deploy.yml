@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main  # Passe den Branch an, den du verwenden möchtest
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -29,7 +30,7 @@ jobs:
       - name: Build Project
         run: npm run build
 
-      - name: Deploy via SSH
+      - name: Remove old via SSH
         uses: appleboy/ssh-action@v0.1.7
         with:
           host: ${{ secrets.SERVER_HOST }}
@@ -40,5 +41,13 @@ jobs:
             # Navigiere zu deinem Zielordner und entferne alte Dateien
             cd ~/www.deter-consulting.de/
             rm -rf *
-            # Kopiere neue Dateien
-            scp -r dist/* ~/www.deter-consulting.de/
+
+      - name: Publish
+        uses: nogsantos/scp-deploy@master
+        with:
+          src: ./dist/*
+          host: ${{ secrets.SERVER_HOST }}
+          user: ${{ secrets.SERVER_USER }}
+          port: 22  # Passe den Port an, falls er nicht 22 ist
+          remote: ~/www.deter-consulting.de/
+          key: ${{secrets.SERVER_SSH_KEY}}
