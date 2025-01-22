@@ -70,7 +70,7 @@ const { hero }: { hero: Hero } = (await getEntry("contact", "-index")).data;
           <div class="relative pt-24 lg:col-5 lg:pt-16" data-aos="fade-left-sm" data-aos-delay="200">
             <ImageMod
               class="absolute left-1/2 top-5 -z-10 w-20 -translate-x-1/2 lg:-top-7"
-              src={"/images/logo-icon.svg"}
+              src={"/images/favicon.png"}
               alt="hero image"
               loading="eager"
             />
@@ -78,11 +78,10 @@ const { hero }: { hero: Hero } = (await getEntry("contact", "-index")).data;
               <form class="row g-4 " action={contact_form_action} method="POST">
 
                 <input type="hidden" name="access_key" value="95d10213-f184-42d5-b003-d564ead90a55" />
-                <!-- Create your free access key from https://web3forms.com/ -->
                 <input type="checkbox" class="hidden" style="display:none" name="botcheck" />
                 <input type="hidden" name="redirect" value="https://www.deter-consulting/kontakt-success">
                 <div class="lg:col-6">
-                  <label for="name" class="form-label">
+                  <label for="firstname" class="form-label">
                     Vorname <span class="text-red-500">*</span>
                   </label>
                   <input

@@ -37,7 +37,7 @@
   },
 
   "disqus": {
-    "enable": true,
+    "enable": false,
     "shortname": "themefisher-template",
     "settings": {}
   },
@@ -45,6 +45,6 @@
   "metadata": {
     "meta_author": "Deter Consulting",
     "meta_image": "/images/og-image.png",
-    "meta_description": "Dein führender Partner "
+    "meta_description": "Dein führender Partner"
   }
 }
