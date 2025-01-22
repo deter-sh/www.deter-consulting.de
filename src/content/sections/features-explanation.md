@@ -2,7 +2,7 @@
 subtitle: "Leistungen"
 title: "Interactive Chart Displays Key Metrics and Trends."
 description: "Your Trusted Partner in Data Protection with Cutting-Edge Solutions <br> for Comprehensive Data Security."
-image: "/images/features/product.png"
+image: ""
 list:
   - row:
       - title: "Security Status Indicator"
