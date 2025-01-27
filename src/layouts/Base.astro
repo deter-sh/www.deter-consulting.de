@@ -32,13 +32,13 @@ export interface Props {
   notFoundPage?: boolean;
   meta_title?: string;
   description?: string;
-  image?: string;
+  image: string;
   noindex?: boolean;
   canonical?: string;
 }
 
 // destructure frontmatter
-const {
+let {
   title,
   meta_title,
   notFoundPage,
@@ -47,6 +47,10 @@ const {
   noindex,
   canonical,
 } = Astro.props;
+
+if (!image.startsWith('http')) {
+  image = config.site.base_url + image;
+}
 ---
 
 <!doctype html>
