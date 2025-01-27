@@ -49,7 +49,7 @@ let {
 } = Astro.props;
 
 if (image && image.startsWith('//')) {
-  image = 'https://' + image;
+  image = 'https:' + image;
 }
 
 if (image && !image.startsWith('http')) {
