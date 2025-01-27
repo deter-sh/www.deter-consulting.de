@@ -54,7 +54,7 @@ const { title, subtitle, description, list }: Features = (
           <div class="col-12 pt-20">
             {list?.map((item, index) => (
               <div
-                class={`row gx-0 gy-5 mb-14 items-center last:mb-0 md:mb-28 ${index % 2 !== 0 ? "max-lg:flex-col-reverse" : ""}`}>
+                class={`row gx-0 gy-5 mb-14 items-center last:mb-0 md:mb-28 ${index % 2 !== 0 ? "max-lg:flex-col" : ""}`}>
                 <div
                   class={`${index % 2 === 0 ? "" : "md:order-2"} lg:col-6`}
                   data-aos="fade-up-sm"
