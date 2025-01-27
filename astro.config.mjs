@@ -15,7 +15,7 @@ import { rehypeHeadingIds } from "@astrojs/markdown-remark";
 export default defineConfig({
   site: config.site.base_url ? config.site.base_url : "http://deter-consulting.de",
   base: config.site.base_path ? config.site.base_path : "/",
-  trailingSlash: config.site.trailing_slash ? "always" : "never",
+  trailingSlash: "never",
   image: {},
   integrations: [
     react(),
