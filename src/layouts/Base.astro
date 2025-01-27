@@ -227,9 +227,7 @@ if (image && !image.startsWith('http')) {
     <!-- twitter-image -->
     <meta
       name="twitter:image"
-      content={`${config.site.base_url}${
-        image ? image : config.metadata.meta_image
-      }`}
+      content={`${image ? image : config.site.base_url + config.metadata.meta_image}`}
     />
     <meta name="twitter:card" content="summary_large_image" />
   </head>
