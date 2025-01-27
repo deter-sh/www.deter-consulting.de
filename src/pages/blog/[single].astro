@@ -28,6 +28,6 @@ const { title, metaDescription} = Astro.props.entry.fields;
   title={title}
   meta_title={title}
   description={metaDescription}
-  image={"https:" + Astro.props.entry.fields.image.fields.file.url}>
+  image={Astro.props.entry.fields.image.fields.file.url}>
   <BlogSingle post={Astro.props} />
 </Base>
