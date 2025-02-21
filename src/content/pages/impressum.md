@@ -8,7 +8,7 @@ draft: false
 
 Angaben gemäß § 5 DDG
 
-Deter Consulting GmbH
+Deter Consulting GmbH  
 Große Deichstraße 31  
 25348 Glückstadt  
 
