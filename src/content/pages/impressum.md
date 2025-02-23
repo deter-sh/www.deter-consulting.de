@@ -10,21 +10,21 @@ Angaben gemäß § 5 DDG
 
 Deter Consulting GmbH  
 Große Deichstraße 31  
-25348 Glückstadt  
+25348 Glückstadt
 
 Vertreten durch:  
 Maximilian Deter
 
-Handelsregister Hamburg
-HRB 190950
-
 Kontakt:  
 Telefon: +49 4124-93 95 710  
 Fax: +49 4124-93 95 709  
-E-Mail: info@deter-consulting.de  
+E-Mail: info@deter-consulting.de
+
+Handelsregister: Amtsgericht Hamburg  
+Handelsregister Nummer: HRB 190950
 
 Umsatzsteuer-ID:  
-Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: DE357552021
+Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: beantragt
 
 Verantwortliche/r i.S.d. § 18 Abs. 2 MStV:
 Maximilian Deter, Große Deichstraße 31, 25348 Glückstadt
