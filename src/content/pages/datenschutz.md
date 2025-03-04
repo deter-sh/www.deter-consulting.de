@@ -10,7 +10,7 @@ draft: false
 
 **1.1** Wir freuen uns, dass Sie unsere Website besuchen und bedanken uns für Ihr Interesse. Im Folgenden informieren wir Sie über den Umgang mit Ihren personenbezogenen Daten bei der Nutzung unserer Website. Personenbezogene Daten sind hierbei alle Daten, mit denen Sie persönlich identifiziert werden können.
 
-**1.2** Verantwortlicher für die Datenverarbeitung auf dieser Website im Sinne der Datenschutz-Grundverordnung (DSGVO) ist Maximilian Deter, Deter Consulting, Große Deichstraße 31, 25348 Glückstadt, Deutschland, Tel.: 041249395710, Fax: 041249395709, E-Mail: max@deter-consulting.de. Der für die Verarbeitung von personenbezogenen Daten Verantwortliche ist diejenige natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet.
+**1.2** Verantwortlicher für die Datenverarbeitung auf dieser Website im Sinne der Datenschutz-Grundverordnung (DSGVO) ist Deter Consulting GmbH, Große Deichstraße 31, 25348 Glückstadt, Deutschland, Tel.: 041249395710, Fax: 041249395709, E-Mail: info@deter-consulting.de. Der für die Verarbeitung von personenbezogenen Daten Verantwortliche ist diejenige natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet.
 
 ## 2) Datenerfassung beim Besuch unserer Website
 

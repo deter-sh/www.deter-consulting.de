@@ -21,7 +21,7 @@ draft: false
 
 ## 1) Geltungsbereich
 
-**1.1** Diese Allgemeinen Geschäftsbedingungen (nachfolgend "AGB") des Maximilian Deter, handelnd unter "Deter Consulting" (nachfolgend "Anbieter"), gelten für alle Verträge zur Erbringung von Dienstleistungen, die ein Verbraucher oder Unternehmer (nachfolgend „Kunde“) mit dem Anbieter hinsichtlich der vom Anbieter auf seiner Website dargestellten Leistungen abschließt. Hiermit wird der Einbeziehung von eigenen Bedingungen des Kunden widersprochen, es sei denn, es ist etwas anderes vereinbart.
+**1.1** Diese Allgemeinen Geschäftsbedingungen (nachfolgend "AGB") der Deter Consulting GmbH (nachfolgend "Anbieter"), gelten für alle Verträge zur Erbringung von Dienstleistungen, die ein Verbraucher oder Unternehmer (nachfolgend „Kunde“) mit dem Anbieter hinsichtlich der vom Anbieter auf seiner Website dargestellten Leistungen abschließt. Hiermit wird der Einbeziehung von eigenen Bedingungen des Kunden widersprochen, es sei denn, es ist etwas anderes vereinbart.
 
 **1.2** Verbraucher im Sinne dieser AGB ist jede natürliche Person, die ein Rechtsgeschäft zu Zwecken abschließt, die überwiegend weder ihrer gewerblichen noch ihrer selbständigen beruflichen Tätigkeit zugerechnet werden können. Unternehmer im Sinne dieser AGB ist eine natürliche oder juristische Person oder eine rechtsfähige Personengesellschaft, die bei Abschluss eines Rechtsgeschäfts in Ausübung ihrer gewerblichen oder selbständigen beruflichen Tätigkeit handelt.
 
