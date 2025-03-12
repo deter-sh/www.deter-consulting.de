@@ -16,8 +16,8 @@ Vertreten durch:
 Maximilian Deter
 
 Kontakt:  
-Telefon: +49 4124-93 95 710  
-Fax: +49 4124-93 95 709  
+Telefon: +49 4124-899 86 99  
+Fax: +49 4124-899 86 98
 E-Mail: info@deter-consulting.de
 
 Handelsregister: Amtsgericht Hamburg  
