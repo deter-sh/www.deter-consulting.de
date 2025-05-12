@@ -36,7 +36,7 @@ const image = post.entry.fields.image.fields.file.url
               <img
                 class="h-8 w-8"
                 style="clip-path: circle();"
-                src={authorImage}
+                src={authorImage + '?h=100&w=100'}
                 alt={author}
               />
               {humanize(author)}
