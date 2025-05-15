@@ -35,11 +35,11 @@ list:
       enable: true
       label: "Mehr über Projektmanagement erfahren"
       link: "/leistungen/projektmanagement"
-  - title: "Software-Entwicklung: Innovation trifft Effizienz"
-    image: "/images/features/Data_Analysis.png"
-    description: "In der Softwareentwicklung stehen Effizienz und Zukunftsfähigkeit im Mittelpunkt. Wir unterstützen dich bei der Entwicklung moderner Anwendungen, der Optimierung von Systemarchitekturen und der Einführung von DevOps-Prinzipien. Von der Beratung über die Umsetzung bis hin zum Testing – wir liefern Lösungen, die auf deine individuellen Anforderungen abgestimmt sind. Mit unserem Fokus auf Performance und Skalierbarkeit machen wir deine IT-Projekte zukunftssicher und helfen dir, sich im Wettbewerb durchzusetzen.<br /> <br /> <b>Deine Technologie, unsere Leidenschaft: </b>Bringe deine IT auf das nächste Level!"
-    button:
-      enable: true
-      label: "Mehr über Development erfahren"
-      link: "/leistungen/development"
+ # - title: "Software-Entwicklung: Innovation trifft Effizienz"
+ #   image: "/images/features/Data_Analysis.png"
+ #   description: "In der Softwareentwicklung stehen Effizienz und Zukunftsfähigkeit im Mittelpunkt. Wir unterstützen dich bei der Entwicklung moderner Anwendungen, der Optimierung von Systemarchitekturen und der Einführung von DevOps-Prinzipien. Von der Beratung über die Umsetzung bis hin zum Testing – wir liefern Lösungen, die auf deine individuellen Anforderungen abgestimmt sind. Mit unserem Fokus auf Performance und Skalierbarkeit machen wir deine IT-Projekte zukunftssicher und helfen dir, sich im Wettbewerb durchzusetzen.<br /> <br /> <b>Deine Technologie, unsere Leidenschaft: </b>Bringe deine IT auf das nächste Level!"
+#    button:
+#      enable: true
+#      label: "Mehr über Development erfahren"
+#      link: "/leistungen/development"
 ---
